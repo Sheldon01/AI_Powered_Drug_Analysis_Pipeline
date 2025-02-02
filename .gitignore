@@ -5,3 +5,10 @@ output/features/X_val_with_fingerprints.parquet
 output/cleaned_data.parquet
 data/activity_data.csv
 data/compound_data.csv
+ChemblFiles/chembl_35_chemreps.txt
+ChemblFiles/data/activity_data.csv
+ChemblFiles/data/compound_data.csv
+env/Lib/site-packages/xgboost/lib/xgboost.dll
+ChemblFiles/chembl_35.db
+ChemblFiles/chembl_35.fps
+ChemblFiles/chembl_35.sdf
