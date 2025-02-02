@@ -1,0 +1,22 @@
+    # Removed Dataset Upload tab for now
+    # with tab4:
+    #     st.subheader("Upload Dataset")
+    #     uploaded_file = st.file_uploader("Upload a .csv or .parquet file", type=["csv", "parquet"])
+    #     if uploaded_file:
+    #         if uploaded_file.name.endswith(".csv"):
+    #             df = pd.read_csv(uploaded_file)
+    #         elif uploaded_file.name.endswith(".parquet"):
+    #             df = pd.read_parquet(uploaded_file)
+    #
+    #         st.write("Uploaded Dataset Preview:")
+    #         st.dataframe(df.head())
+    #
+    #         df = optimize_dataframe(df)
+    #         df = align_features(df, model)
+    #
+    #         if not df.empty:
+    #             dmatrix = xgb.DMatrix(df, feature_names=df.columns.tolist())
+    #             predictions = model.predict(dmatrix)
+    #             df["Predictions"] = predictions
+    #             st.write("Predictions:")
+    #             st.dataframe(df)
