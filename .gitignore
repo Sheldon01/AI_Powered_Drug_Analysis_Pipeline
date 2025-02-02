@@ -1,7 +1,7 @@
-# Ignore intermediate files and folders
-output/features/cleaned/predictions.parquet
-output/features/SHAP_Plots/
-output/features/Feature_Importance_Plots/
-output/features/X_train_final_part_*.parquet
+# Ignore large files
+output/processed_data.csv
 output/features/X_train_with_fingerprints.parquet
 output/features/X_val_with_fingerprints.parquet
+output/cleaned_data.parquet
+data/activity_data.csv
+data/compound_data.csv
